@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 15vh;
+    background-color: rgb(14, 90, 148);
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.container{
+    background-color: rgb(111, 105, 105);
+    height:auto;
+}
+.container h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.add-field{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+.button{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 42%;
+}
+ .btn{
+    background-color: rgb(15, 109, 109);
+    color:#fff;
+    border-style: none;
+    border-radius: 3px;
+    padding: 1%;
+}
+.delete-btn{
+    width:50px;
+    height: 20px;
+}
